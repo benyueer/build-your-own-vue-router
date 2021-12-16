@@ -1,0 +1,11 @@
+{
+  "name": "build-your-own-vue-router",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/benyueer/build-your-own-vue-router.git",
+  "author": "benyueer <347201906@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run workspace src serve"
+  }
+}
