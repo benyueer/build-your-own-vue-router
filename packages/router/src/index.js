@@ -1,4 +1,5 @@
 import install from "./install"
+import createMatcher from './create-matcher'
 
 /**
  * VueRouter类

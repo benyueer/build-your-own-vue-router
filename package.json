@@ -5,7 +5,13 @@
   "repository": "https://github.com/benyueer/build-your-own-vue-router.git",
   "author": "benyueer <347201906@qq.com>",
   "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true,
   "scripts": {
-    "dev": "npm run workspace src serve"
+    "dev": "yarn workspace app serve"
   }
 }
