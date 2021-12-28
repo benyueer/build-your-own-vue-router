@@ -2,10 +2,11 @@
 export default {
   name: 'test1',
   functional: true,
-  render(_, context) {
-    console.log(_, context)
-    const h = context.parent.$createElement
-    return h()
+  render(h) {
+    // console.log(111)
+    // const h = context.parent.$createElement
+    // return (<div>a-comp</div>)
+    return h('div', null, 'a-comp')
   },
 }
 </script>

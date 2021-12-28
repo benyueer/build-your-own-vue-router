@@ -17,14 +17,14 @@ export default {
   },
   render(h) {
 
-    const current = this.$route
-    const { location } = this.$router.resolve(
-      this.to,
-      current
-    )
+    // const current = this.$route
+    // const { location } = this.$router.resolve(
+    //   this.to,
+    //   current
+    // )
 
-    const handler = (e) => {
-      this.$router.push(location)
+    const handler = () => {
+      this.$router.push(this.to)
     }
 
     const data = {
