@@ -17,7 +17,7 @@ function createRoute(route, router) {
 
   return {
     // eslint-disable-next-line no-dupe-keys
-    name: route,name,
+    name: route.name,
     meta: route.meta,
     router,
     matched: [route]

@@ -1,7 +1,9 @@
 export default {
   render() {
     return (
-      <div>b-comp</div>
-    )
+      <div>
+        <div>b-comp</div>
+       </div>
+      )
   }
 }
